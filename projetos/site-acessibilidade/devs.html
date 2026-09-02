@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para Desenvolvedores - Acessibilidade Digital</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Acessibilidade Digital para Desenvolvedores</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="artigos.html">Artigos</a></li>
+                <li><a href="legislacao.html">Legislação</a></li>
+                <li><a href="devs.html">Para Desenvolvedores</a></li>
+                <li><a href="configuracoes.html">Configurações</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Introdução</h2>
+            <p>Como desenvolvedor, você tem um papel essencial na criação de sites acessíveis. A acessibilidade digital não é apenas uma exigência legal, mas também uma maneira de garantir que seu conteúdo seja acessível a um público maior, incluindo pessoas com deficiência. A seguir, estão algumas práticas recomendadas para garantir que seu site atenda aos padrões de acessibilidade.</p>
+        </section>
+
+        <section>
+            <h2>Práticas Recomendadas para Acessibilidade</h2>
+            <ul>
+                <li><strong>Uso de HTML Semântico:</strong> Utilize tags HTML de forma correta para garantir que o conteúdo do seu site seja lido corretamente por leitores de tela. Use <code>&lt;header&gt;</code>, <code>&lt;article&gt;</code>, <code>&lt;section&gt;</code> e outras tags semânticas para organizar seu conteúdo.</li>
+                <li><strong>Textos Alternativos para Imagens:</strong> Certifique-se de fornecer uma descrição adequada para todas as imagens usando o atributo <code>alt</code>. Isso permitirá que usuários de leitores de tela compreendam o conteúdo visual.</li>
+                <li><strong>Teclado Navegável:</strong> Garanta que seu site seja totalmente navegável por teclado. Isso inclui garantir que todos os links e formulários possam ser acessados e utilizados sem a necessidade de um mouse.</li>
+                <li><strong>Contraste Adequado:</strong> Verifique se o contraste entre o texto e o fundo é suficiente para garantir que pessoas com deficiência visual, como daltonismo, possam ler o conteúdo com facilidade.</li>
+                <li><strong>ARIA (Accessible Rich Internet Applications):</strong> Utilize atributos ARIA para melhorar a acessibilidade de elementos interativos e dinâmicos, como sliders e menus dropdown, garantindo que eles sejam anunciados corretamente por leitores de tela.</li>
+                <li><strong>Legibilidade e Fontes:</strong> Escolha fontes legíveis e certifique-se de que o tamanho da fonte seja ajustável. Evite usar fontes pequenas ou difíceis de ler.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Ferramentas para Desenvolvedores</h2>
+            <p>Existem diversas ferramentas que você pode usar para testar e melhorar a acessibilidade do seu site:</p>
+            <ul>
+                <li><strong>WAVE:</strong> Ferramenta online que permite realizar auditorias de acessibilidade em seu site.</li>
+                <li><strong>Google Lighthouse:</strong> Ferramenta de auditoria de código aberta que pode ser usada no Google Chrome para verificar a acessibilidade, desempenho e outras métricas do site.</li>
+                <li><strong>axe:</strong> Ferramenta de avaliação de acessibilidade que pode ser integrada diretamente no navegador.</li>
+                <li><strong>Color Contrast Analyzer:</strong> Ferramenta para verificar se o contraste entre o texto e o fundo está em conformidade com os requisitos da WCAG.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Diretrizes WCAG</h2>
+            <img src="imagens/imagem.jpg" alt="WCAG">
+            <p>As <strong>Web Content Accessibility Guidelines (WCAG)</strong> são as principais diretrizes internacionais para acessibilidade digital. Elas fornecem uma série de recomendações para tornar o conteúdo web mais acessível. As WCAG são organizadas em 4 princípios principais:</p>
+            <ul>
+                <li><strong>Perceptível:</strong> O conteúdo deve ser apresentado de forma que possa ser percebido por todos os usuários.</li>
+                <li><strong>Operável:</strong> A interface do usuário deve ser operável por todos os usuários, independentemente de suas habilidades.</li>
+                <li><strong>Compreensível:</strong> O conteúdo e a interface devem ser compreensíveis.</li>
+                <li><strong>Robusto:</strong> O conteúdo deve ser robusto o suficiente para funcionar em uma ampla variedade de dispositivos e tecnologias assistivas.</li>
+            </ul>
+        </section>
+    </main>
+
+    <button class="flutuante" onclick="ativarLeituraVozAlta()">🎤</button>
+    <button class="flutuanteX" onclick="pararLeituraVozAlta()">❌</button>
+
+    <footer>
+        <p>&copy; 2024 Site Acessível. Todos os direitos reservados.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

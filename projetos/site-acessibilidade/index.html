@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Acessível</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Site com Acessibilidade</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="artigos.html">Artigos</a></li>
+                <li><a href="legislacao.html">Legislação</a></li>
+                <li><a href="devs.html">Para Desenvolvedores</a></li>
+                <li><a href="configuracoes.html">Configurações</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>O que é Acessibilidade Digital?</h2>
+            <p>Acessibilidade digital é a prática de garantir que as plataformas online, como sites e aplicativos, sejam utilizáveis por todos os indivíduos, independentemente de suas habilidades ou limitações. Isso inclui garantir que pessoas com deficiências, como deficiências visuais, auditivas, motoras ou cognitivas, possam acessar e interagir com o conteúdo de forma eficaz.</p>
+            <p>Alguns exemplos de práticas de acessibilidade incluem o uso de leitores de tela, navegação por teclado e a possibilidade de ajustar contrastes e tamanhos de fonte.</p>
+        </section>
+
+        <section>
+            <h2>Práticas Comuns de Acessibilidade em Sites</h2>
+            <p>Existem várias práticas recomendadas para tornar um site mais acessível. Algumas das mais comuns incluem:</p>
+            <ul>
+                <li><strong>Textos Alternativos para Imagens:</strong> Incluir descrições nas imagens (atributo `alt`), que podem ser lidas por leitores de tela, para garantir que usuários com deficiência visual possam entender o conteúdo visual.</li>
+                <li><strong>Contraste Adequado:</strong> Garantir que o contraste entre o texto e o fundo seja forte o suficiente para ser legível por pessoas com deficiência visual, incluindo aquelas com daltonismo.</li>
+                <li><strong>Teclado Navegável:</strong> Tornar o site completamente navegável usando apenas o teclado, sem a necessidade de mouse, para apoiar usuários com mobilidade reduzida.</li>
+                <li><strong>Legibilidade:</strong> Usar fontes legíveis e de tamanho ajustável, com espaçamento adequado entre linhas e parágrafos.</li>
+                <li><strong>Subtítulos e Transcrições:</strong> Oferecer subtítulos para vídeos e transcrições para áudios, ajudando pessoas com deficiência auditiva a compreender o conteúdo multimídia.</li>
+                <li><strong>Estrutura Semântica:</strong> Usar HTML de forma semântica para garantir que leitores de tela possam entender corretamente a estrutura e o significado do conteúdo.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Benefícios da Acessibilidade Digital</h2>
+            <p>Investir em acessibilidade digital não beneficia apenas pessoas com deficiência, mas também melhora a experiência de todos os usuários. Sites acessíveis são mais fáceis de usar, independemente da idade ou capacidade, e podem alcançar um público mais amplo. Além disso, atender às normas de acessibilidade pode ajudar a melhorar a visibilidade do seu site nos motores de busca e garantir conformidade com legislações e regulamentos de acessibilidade.</p>
+        </section>
+    </main>
+
+    <button class="flutuante" onclick="ativarLeituraVozAlta()">🎤</button>
+    <button class="flutuanteX" onclick="pararLeituraVozAlta()">❌</button>
+
+    <footer>
+        <p>&copy; 2024 Site Acessível. Todos os direitos reservados.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

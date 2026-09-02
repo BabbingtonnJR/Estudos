@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Configurações de Acessibilidade</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Configurações de Acessibilidade</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="artigos.html">Artigos</a></li>
+                <li><a href="legislacao.html">Legislação</a></li>
+                <li><a href="devs.html">Para Desenvolvedores</a></li>
+                <li><a href="configuracoes.html">Configurações</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Ajustes de Fonte</h2>
+            <button onclick="ajustarFonte(14)">Pequeno</button>
+            <button onclick="ajustarFonte(18)">Médio</button>
+            <button onclick="ajustarFonte(22)">Grande</button>
+        </section>
+
+        <section>
+            <h2>Alterar Contraste</h2>
+            <button onclick="mudarContraste('alto')">Alto Contraste</button>
+            <button onclick="mudarContraste('baixo')">Contraste Normal</button>
+        </section>
+        
+    </main>
+
+    <button class="flutuante" onclick="ativarLeituraVozAlta()">🎤</button>
+    <button class="flutuanteX" onclick="pararLeituraVozAlta()">❌</button>
+
+    <footer>
+        <p>&copy; 2024 Site Acessível. Todos os direitos reservados.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
