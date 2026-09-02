@@ -60,7 +60,7 @@ Estudos/
     │   ├── devs.html
     │   ├── index.html
     │   ├── legislacao.html
-    │   ├── scripts.js
+    │   ├── script.js
     │   └── styles.css
     │
     ├── projeto-java/
