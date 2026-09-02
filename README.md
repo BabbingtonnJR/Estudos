@@ -8,11 +8,17 @@ Estudos/
 │       ├── atividade02.py
 │       ├── atividade03.py
 │       ├── atividade04.py
+│       ├── atividade04.jpg
 │       ├── atividade05.py
+│       ├── atividade05.jpg
 │       ├── atividade06.py
+│       ├── atividade06.jpg
 │       ├── atividade07.py
+│       ├── atividade07.jpg
 │       ├── atividade08.py
+│       ├── atividade08.jpg
 │       ├── atividade09.py
+│       ├── atividade09.jpg
 │       ├── atividade10.py
 │       └── atividade10.jpg
 │
