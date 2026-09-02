@@ -49,43 +49,6 @@ Estudos/
 │   └── pokemon.py
 │
 └── projetos/
-    ├── site-acessibilidade/
-    │   ├── artigos/
-    │   │   ├── eMAG_CONTEUDISTA_MOD_1.pdf
-    │   │   └── eMAG_CONTEUDISTA_MOD_2.pdf
-    │   ├── imagens/
-    │   │   └── imagem.jpg
-    │   ├── artigos.html
-    │   ├── configuracoes.html
-    │   ├── devs.html
-    │   ├── index.html
-    │   ├── legislacao.html
-    │   ├── script.js
-    │   └── styles.css
-    │
-    ├── projeto-java/
-    │   └── Sistema/
-    │       ├── src/main/java/
-    │       │   ├── br/pucpr/projeto/sistema/
-    │       │   │   ├── Administrador.java
-    │       │   │   ├── Cliente.java
-    │       │   │   ├── Denuncia.java
-    │       │   │   ├── Loja.java
-    │       │   │   ├── PersistenciaUtils.java
-    │       │   │   ├── Promocao.java
-    │       │   │   ├── RepositorioUsuarios.java
-    │       │   │   ├── Sistema.java
-    │       │   │   ├── TelaAdministrador.java
-    │       │   │   ├── TelaCadastro.java
-    │       │   │   ├── TelaCliente.java
-    │       │   │   ├── TelaLogin.java
-    │       │   │   ├── TelaLoja.java
-    │       │   │   └── Usuario.java
-    │       │   └── module-info.java
-    │       ├── mvnw
-    │       ├── mvnw.cmd
-    │       └── pom.xml
-    │
     ├── codigo-morse/
     │   └── CodigoMorseTeste/
     │       └── src/
