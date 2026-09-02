@@ -1,3 +1,6 @@
+## Estrutura
+
+```text
 Estudos/
 ├── atividades/
 │   └── primeiro-periodo/
@@ -92,3 +95,4 @@ Estudos/
                 ├── No.java
                 ├── Prato.java
                 └── TabelaHash.java
+```
